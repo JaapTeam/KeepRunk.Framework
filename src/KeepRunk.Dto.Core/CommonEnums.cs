@@ -3,6 +3,6 @@
     public enum ApplicationServiceStatus
     {
         Success = 1,
-        Failed = 2
+        Fail = 2
     }
 }

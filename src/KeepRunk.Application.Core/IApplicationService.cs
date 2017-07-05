@@ -1,8 +1,10 @@
-﻿namespace KeepRunk.Application.Core
+﻿using KeepRunk.Dto.Core;
+
+namespace KeepRunk.Application.Core
 {
     public interface IApplicationService<in TInput, out TOutput> 
-        where TInput : IApplicationInput
-        where TOutput:IApplicationOutput
+        where TInput : IApplicationInputDto
+        where TOutput:IApplicationOutputDto
     {
         TOutput HandlerService(TInput input);
     }

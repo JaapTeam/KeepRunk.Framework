@@ -1,6 +1,6 @@
-﻿namespace KeepRunk.Application.Core
+﻿namespace KeepRunk.Model.Core
 {
-    public interface IApplicationInput
+    public interface IUserModel : IRootEntity
     {
         long UserId { get; set; }
         string UserName { get; set; }

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeepRunk.Model.Core", "Keep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeepRunk.Domain.Core", "KeepRunk.Domain.Core\KeepRunk.Domain.Core.csproj", "{F7BCB96C-CAF4-45A9-A357-87905E1B076E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeepRunk.EntityFramework", "KeepRunk.EntityFramework\KeepRunk.EntityFramework.csproj", "{35742295-B88D-4A83-9E33-B13A411352C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F7BCB96C-CAF4-45A9-A357-87905E1B076E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7BCB96C-CAF4-45A9-A357-87905E1B076E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7BCB96C-CAF4-45A9-A357-87905E1B076E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35742295-B88D-4A83-9E33-B13A411352C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35742295-B88D-4A83-9E33-B13A411352C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35742295-B88D-4A83-9E33-B13A411352C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35742295-B88D-4A83-9E33-B13A411352C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

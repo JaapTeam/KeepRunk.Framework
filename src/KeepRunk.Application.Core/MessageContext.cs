@@ -1,22 +1,24 @@
-﻿namespace KeepRunk.Application.Core
+﻿using KeepRunk.Model.Core;
+
+namespace KeepRunk.Application.Core
 {
     /// <summary>
     /// 会话信息上下文
     /// </summary>
     public class MessageContext
     {
-        private readonly long _userId;
+        private readonly IUserModel _userModel;
 
-        public MessageContext(long userId)
+        public MessageContext(IUserModel userModel)
         {
-            _userId = userId;
+            _userModel = userModel;
         }
 
-        public long UserId
+        public IUserModel UserModel
         {
             get
             {
-                return _userId; 
+                return _userModel; 
             }
         }
     }
